@@ -16,7 +16,7 @@ def main():
         mouse.hook(mouse_events.append)
         keyboard.start_recording()
 
-        time.sleep(10)
+        time.sleep(60)
 
         mouse.unhook(mouse_events.append)
         keyboard_events = keyboard.stop_recording()
